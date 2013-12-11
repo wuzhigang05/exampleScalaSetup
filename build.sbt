@@ -9,6 +9,8 @@ scalaVersion := "2.10.2"
 
 resolvers += "Concurrent Maven Repo" at "http://conjars.org/repo"
 
+libraryDependencies += "com.frugalmechanic" %% "scala-optparse" % "1.1.1"
+
 libraryDependencies += "cascading" % "cascading-core" % "2.0.2"
 
 libraryDependencies += "cascading" % "cascading-local" % "2.0.2"
