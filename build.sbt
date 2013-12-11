@@ -29,7 +29,8 @@ libraryDependencies += "commons-lang" % "commons-lang" % "2.4"
 
 libraryDependencies += "com.twitter" % "scalding-core_2.10" % "0.9.0rc4"
 
-libraryDependencies += "org.specs2" % "specs2_2.9.2" % "1.12.1"
+libraryDependencies += "org.apache.hadoop" % "hadoop-core" % "1.2.1"
 
 // Invocation exception if we try to run the tests in parallel
+
 parallelExecution in Test := false
